@@ -15,6 +15,10 @@
 #   }
 
 class User
+  attr_reader :username, :age
+  attr_writer :username, :age, :password
+  
+  #   attr_accessor :username, :age #this creates both a reader and writer for the listed variables
   
   def initialize(username,password,age)
     @username = username
