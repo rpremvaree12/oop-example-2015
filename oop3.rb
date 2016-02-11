@@ -26,7 +26,7 @@ class User #the name of the class is always Capitalized
     @age = age
   end
 
-#   def name #getter method
+#   def name #getter/reader method
 #     @name
 #   end
   
@@ -34,7 +34,7 @@ class User #the name of the class is always Capitalized
 #     @age
 #   end
   
-#   def age=(age) #setter method
+#   def age=(age) #setter/writer method
 #     @age = age
 #   end
   
@@ -44,5 +44,5 @@ tina = User.new("tgao99","applesareyummy",16)
 diamond = User.new("diamante","bananasarelit",16)
 
 puts diamond.name
-diamond.age=(17)
-puts diamond.age
+diamond.age=(17) #uses the setter method
+puts diamond.age #uses the getter method
