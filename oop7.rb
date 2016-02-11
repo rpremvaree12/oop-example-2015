@@ -26,13 +26,13 @@ class User
     @age = age
   end
   
-  def age #getter method for age
-    @age
-  end
+  #   def age #getter/reader method for age #attr_reader does this for us!
+#     @age
+#   end
   
-  def age=(age) #setter method for age
-    @age = age
-  end
+  #   def age=(age) #setter/writer method for age #attr_writer does this for us!
+#     @age = age
+#   end
   
 end
 
