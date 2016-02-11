@@ -36,10 +36,8 @@ class User
   
 end
 
-premvaree = User.new("Mr. Premvaree","allday",45)
+#these two lines create new users! the equivalent of the hashes on lines 1-15. so easy, so simple, so clean!
+sherin = User.new("sherin2","belovedisthebest",17)
+vania = User.new("vbravo99","ilovemysisters",16)
 
-puts premvaree.age
-
-premvaree.age=(16)
-prevaree.age = 16 #either one works
 
